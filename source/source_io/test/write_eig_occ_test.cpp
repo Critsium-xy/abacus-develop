@@ -1,8 +1,6 @@
 #include "source_base/global_variable.h"
 
-#define private public
 #include "source_io/module_parameter/parameter.h"
-#undef private
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
 #include <streambuf>

@@ -1,8 +1,6 @@
 #include "gtest/gtest.h"
 #include "gmock/gmock.h"
-#define private public
 #include "source_io/module_parameter/parameter.h"
-#undef private
 #include "source_io/module_wf/read_wfc_nao.h"
 #include "source_basis/module_ao/parallel_orbitals.h"
 #include "source_io/module_wf/write_wfc_nao.h"

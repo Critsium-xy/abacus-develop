@@ -13,10 +13,8 @@
 #include <vector>
 #include <map>
 
-#define private public
 #include "source_io/module_dm/write_dmk.h"
 #include "source_io/module_parameter/parameter.h"
-#undef private
 #include "source_base/global_variable.h"
 #include "../../test/prepare_unitcell.h"
 

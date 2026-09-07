@@ -36,11 +36,7 @@
  *     - collect_uniqgg: get uniq gg without duplication in length
  */
 
-#define protected public
-#define private public
 #include "../pw_basis.h"
-#undef protected
-#undef private
 
 class PWBasisTEST: public testing::Test
 {

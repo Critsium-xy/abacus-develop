@@ -5,9 +5,7 @@
 #include <fstream>
 #include <iomanip>
 
-#define private public
 #include "source_basis/module_ao/orb_nonlocal_lm.h"
-#undef private
 
 
 #ifdef __MPI

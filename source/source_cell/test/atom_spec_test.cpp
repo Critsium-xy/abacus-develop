@@ -26,12 +26,10 @@
  *     - bcast norm-conserving pseudopotential info to all processes
  */
 
-#define private public
 #include "source_cell/read_pp.h"
 #include "source_cell/pseudo.h"
 #include "source_cell/atom_pseudo.h"
 #include "source_cell/atom_spec.h"
-#undef private
 class AtomSpecTest : public testing::Test
 {
 protected:

@@ -26,13 +26,9 @@
  *     - collect_local_pw: get gk2, gcar for local npw plane waves
  */
 
-#define protected public
-#define private public
 #include "../pw_basis_k.h"
 #include "../pw_basis.h"
 #include "../pw_gatherscatter.h"
-#undef protected
-#undef private
 
 class PWBasisKTEST: public testing::Test
 {

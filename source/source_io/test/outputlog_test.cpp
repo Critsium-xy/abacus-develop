@@ -1,8 +1,6 @@
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#define private public
 #include "source_io/module_parameter/parameter.h"
-#undef private
 #include <unistd.h>
 #include <cstdio>
 #include <iostream>

@@ -12,9 +12,7 @@
 #include <iostream>
 
 // Include parameter.h with private access for testing
-#define private public
 #include "source_io/module_parameter/parameter.h"
-#undef private
 /************************************************
  *  unit test of functions in cal_vel.cpp
  ***********************************************/

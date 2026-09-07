@@ -1,15 +1,11 @@
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
 #include <string>
-#define private public
-#define protected public
 #include "source_estate/elecstate.h"
 #include "source_estate/elecstate_tools.h"
 #include "source_estate/occupy.h"
 #include "source_io/module_parameter/parameter.h"
 #include "source_base/module_fft/fft_bundle.h"
-#undef private
-#undef protected
 
 // Mock functions for testing elecstate.cpp
 namespace elecstate

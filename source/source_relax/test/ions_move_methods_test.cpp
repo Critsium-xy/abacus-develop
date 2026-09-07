@@ -8,11 +8,7 @@
 #include <iterator>
 #include <string>
 #include <vector>
-#define private public
-#define protected public
 #include "source_relax/ions_move_methods.h"
-#undef private
-#undef protected
 /************************************************
  *  unit tests of class Ions_Move_Methods
  ***********************************************/

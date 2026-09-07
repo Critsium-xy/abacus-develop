@@ -1,6 +1,5 @@
 #include "gtest/gtest.h"
 #include "gmock/gmock.h"
-#define private public
 #include "source_io/module_parameter/parameter.h"
 #include "source_cell/klist.h"
 #include "source_cell/parallel_kpoints.h"
@@ -8,7 +7,6 @@
 #include "source_io/module_unk/berryphase.h"
 #include "source_io/module_output/print_info.h"
 #include "prepare_unitcell.h"
-#undef private
 Magnetism::Magnetism(){}
 Magnetism::~Magnetism(){}
 

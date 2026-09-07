@@ -7,9 +7,7 @@
 #include "for_testing_klist.h"
 #include "dos_test.h"
 
-#define private public
 #include "source_io/module_parameter/parameter.h"
-#undef private
 
 /************************************************
  *  unit test of write_dos_pw

@@ -1,9 +1,7 @@
 #include "gtest/gtest.h"
 #include "source_base/global_variable.h"
 
-#define private public
 #include "source_basis/module_ao/orb_nonlocal.h"
-#undef private
 
 #ifdef __MPI
 #include <mpi.h>

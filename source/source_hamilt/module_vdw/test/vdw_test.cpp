@@ -5,10 +5,8 @@
 #include"gtest/gtest.h"
 #include"gmock/gmock.h"
 #include "mpi.h"
-#define private public
 #include "source_hamilt/module_vdw/vdwd2_parameters.h"
 #include "source_hamilt/module_vdw/vdwd2.h"
-#undef private
 #include "source_hamilt/module_vdw/vdwd3.h"
 #ifdef __DFTD4
 #include "source_hamilt/module_vdw/vdwd4.h"

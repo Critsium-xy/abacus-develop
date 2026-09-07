@@ -1,9 +1,7 @@
 #include "gtest/gtest.h"
 #include <complex>
 #include <vector>
-#define private public
 #include "source_io/module_parameter/parameter.h"
-#undef private
 #include "source_base/matrix.h"
 #include "source_pw/module_pwdft/dftu_base_tools.h"
 

@@ -3,9 +3,7 @@
 #include "gmock/gmock.h"
 #include "for_test.h"
 
-#define private public
 #include "source_relax/ions_move_bfgs2.h"
-#undef private
 
 #include "source_io/module_parameter/parameter.h"
 
