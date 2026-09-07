@@ -3,10 +3,8 @@
 #include "gtest/gtest.h"
 #include "gmock/gmock.h"
 #include "source_io/module_parameter/parameter.h"
-#define private public
 #include "source_relax/ions_move_basic.h"
 #include "source_relax/ions_move_cg.h"
-#undef private
 
 /************************************************
  *  unit tests of class Ions_Move_CG

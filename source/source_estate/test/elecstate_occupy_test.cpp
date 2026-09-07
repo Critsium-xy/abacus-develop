@@ -12,9 +12,7 @@
  *   - Occupy::Occupy()
  *   - Occupy::decision()
  */
-#define private public
 #include "source_estate/occupy.h"
-#undef private
 class OccupyTest : public ::testing::Test
 {
 protected:

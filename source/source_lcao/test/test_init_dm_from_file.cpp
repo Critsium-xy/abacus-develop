@@ -5,13 +5,11 @@
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#define private public
 #include "source_estate/module_dm/density_matrix.h"
 #include "source_hamilt/module_hcontainer/hcontainer.h"
 #include "source_hamilt/module_hcontainer/read_hcontainer.h"
 #include "source_lcao/setup_dm.h"
 #include "source_cell/klist.h"
-#undef private
 #include "source_io/module_dm/write_dmr.h"
 
 /************************************************

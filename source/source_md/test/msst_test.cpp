@@ -1,13 +1,9 @@
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
 #include "source_io/module_parameter/parameter.h"
-#define private public
-#define protected public
 #include "setcell.h"
 #include "source_esolver/esolver_lj.h"
 #include "source_md/msst.h"
-#undef private
-#undef protected
 #define doublethreshold 1e-12
 
 /************************************************

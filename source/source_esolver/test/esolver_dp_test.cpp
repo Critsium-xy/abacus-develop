@@ -4,11 +4,7 @@
 
 #include "source_io/module_parameter/input_parameter.h"
 
-#define private public
-#define protected public
 #include "../esolver_dp.h"
-#undef private
-#undef protected
 /************************************************
  *  unit tests of class ESolver_DP
  ***********************************************/

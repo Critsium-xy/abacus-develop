@@ -2,11 +2,9 @@
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#define private public
 #include "source_estate/module_dm/density_matrix.h"
 #include "source_hamilt/module_hcontainer/hcontainer.h"
 #include "source_cell/klist.h"
-#undef private
 /************************************************
  *  unit test of DensityMatrix constructor
  ***********************************************/

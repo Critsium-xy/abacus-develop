@@ -22,11 +22,9 @@
  *     - bcast upf201 pp info to other processes
  */
 
-#define private public
 #include "source_cell/read_pp.h"
 #include "source_cell/pseudo.h"
 #include "source_cell/atom_pseudo.h"
-#undef private
 class AtomPseudoTest : public testing::Test
 {
 protected:

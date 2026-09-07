@@ -59,10 +59,8 @@
  *     - average_p: modulate the soc effect in pseudopotential
  */
 
-#define private public
 #include "source_cell/read_pp.h"
 #include "source_cell/atom_pseudo.h"
-#undef private
 class ReadPPTest : public testing::Test
 {
 protected:

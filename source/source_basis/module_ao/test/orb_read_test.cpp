@@ -4,9 +4,7 @@
 #include "source_basis/module_ao/orb_atomic.h"
 #include "source_basis/module_ao/orb_atomic_lm.h"
 
-#define private public
 #include "source_basis/module_ao/orb_read.h"
-#undef private
 
 #ifdef __MPI
 #include <mpi.h>

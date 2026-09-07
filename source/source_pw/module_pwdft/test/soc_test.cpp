@@ -24,9 +24,7 @@ void EXPECT_COMPLEX_DOUBLE_EQ(const std::complex<double>& a,const std::complex<d
     EXPECT_DOUBLE_EQ(a.imag(),b.imag());
 }
 
-#define private public
 #include "source_pw/module_pwdft/soc.h"
-#undef private
 class FcoefTest : public testing::Test
 {
 protected:

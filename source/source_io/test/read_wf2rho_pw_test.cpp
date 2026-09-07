@@ -4,7 +4,6 @@
 #undef __LCAO
 
 #include "source_io/module_parameter/parameter.h"
-#define private public
 #include "source_base/module_out/filename.h" // mohan add 2025-05-17
 #include "source_base/parallel_grid.h"
 #include "source_cell/klist.h"
@@ -18,7 +17,6 @@
 
 #include "source_base/parallel_global.h"
 #include "source_basis/module_pw/test/test_tool.h"
-#undef private
 #ifdef __MPI
 #include "mpi.h"
 #endif

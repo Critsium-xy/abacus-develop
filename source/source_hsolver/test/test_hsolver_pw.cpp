@@ -3,16 +3,12 @@
 #include <sstream>
 #include <vector>
 
-#define private public
-#define protected public
 #include "hsolver_pw_sup.h"
 #include "hsolver_supplementary_mock.h"
 #include "source_hamilt/module_xc/general_exx_info.h" // for General_Exx_Info type
 #include "source_hsolver/diag_comm_info.h"
 #include "source_hsolver/hsolver_lcaopw.h"
 #include "source_hsolver/hsolver_pw.h"
-#undef private
-#undef protected
 
 // Mock implementations for the template functions causing linking errors
 namespace ModulePW {

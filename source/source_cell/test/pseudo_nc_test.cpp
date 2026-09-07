@@ -21,10 +21,8 @@
  *   - print_pseudo
  */
 
-#define private public
 #include "source_cell/read_pp.h"
 #include "source_cell/atom_pseudo.h"
-#undef private
 class NCPPTest : public testing::Test
 {
 protected:

@@ -2,15 +2,11 @@
 #include "gmock/gmock.h"
 
 #include "source_io/module_parameter/parameter.h"
-#define private public
-#define protected public
 #include "source_cell/unitcell.h"
 #include "source_estate/module_charge/charge.h"
 #include "source_hamilt/module_xc/xc_functional.h"
 #include "prepare_unitcell.h"
 // mock functions for UnitCell
-#undef private
-#undef protected
 Magnetism::Magnetism()
 {
     this->tot_mag = 0.0;

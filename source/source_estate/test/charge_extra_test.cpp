@@ -1,13 +1,9 @@
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
 #include "source_io/module_parameter/parameter.h"
-#define private public
-#define protected public
 #include "source_estate/module_charge/charge_extra.h"
 #include "prepare_unitcell.h"
 #include "source_base/module_fft/fft_bundle.h"
-#undef private
-#undef protected
 // mock functions for UnitCell
 
 Magnetism::Magnetism()

@@ -25,9 +25,7 @@ namespace GlobalV
  *     - std::ofstream file
  */
 
-#define private public
 #include "../memory_recorder.h"
-#undef private
 
 class MemoryTest : public testing::Test
 {

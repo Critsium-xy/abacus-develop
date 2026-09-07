@@ -3,11 +3,7 @@
 #include "gmock/gmock.h"
 #include "source_io/module_parameter/parameter.h"
 #include "gtest/gtest.h"
-#define private public
-#define protected public
 #include "source_relax/bfgs_basic.h"
-#undef private
-#undef protected
 /************************************************
  *  unit tests of class BFGS_Basic
  ***********************************************/

@@ -17,9 +17,7 @@
  *      - and non-collinear case with nspin = 4
 */
 
-#define private public
 #include "source_cell/magnetism.h"
-#undef private
 
 
 class MagnetismTest : public ::testing::Test

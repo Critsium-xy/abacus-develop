@@ -11,9 +11,7 @@
 #include <mpi.h>
 #endif
 
-#define private public
 #include "source_basis/module_ao/orb_atomic_lm.h"
-#undef private
 
 /***********************************************************
  *      unit test of class "Numerical_Orbital_Lm"

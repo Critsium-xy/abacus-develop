@@ -1,10 +1,8 @@
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
 
-#define private public
 #include "source_cell/module_neighbor/sltk_grid.h"
 #include "prepare_unitcell.h"
-#undef private
 #include "source_cell/read_stru.h"
 
 Magnetism::Magnetism()

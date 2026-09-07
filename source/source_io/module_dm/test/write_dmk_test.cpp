@@ -14,9 +14,7 @@
 #include <map>
 
 #include "source_io/module_parameter/parameter.h"
-#define private public
 #include "source_io/module_dm/write_dmk.h"
-#undef private
 #include "source_base/global_variable.h"
 #include "../../test/prepare_unitcell.h"
 
